@@ -77,9 +77,10 @@ body {
 #main {
 	position: absolute;
 	background-color: white;
-	width: 967px;
+	width: 965px;
 	height: 1080px;
 	top: 210px;
+	padding-left: 1px;
 	display: inline-block;
 	border-left-color: white;
 	border-left-style: solid;
@@ -90,13 +91,6 @@ body {
 	z-index: 0;
 }
 
-#main>table {
-}
-
-#information {
-	
-}
-
 #information_1_image_container {
 	text-align: center;
 	top: 10px;
@@ -104,7 +98,7 @@ body {
 
 #information_1 {
 	height: 90px;
-	padding: 10px;
+	padding: 15px;
 	-moz-box-shadow: -1px -1px 3px 0px #333333	;
     -webkit-box-shadow: -1px -1px 3px 0px #333333;
     box-shadow: -1px -1px 3px 0px #333333;
@@ -113,7 +107,7 @@ body {
 #information_1_text {
 	font-family: Arial;
 	text-align: center;
-	font-size: 13px
+	font-size: 13px;
 }
 
 #information_2 {
@@ -124,3 +118,21 @@ body {
     box-shadow: -1px -1px 3px 0px #333333;
 }
 
+#main_container { 
+	background-color: white;
+	width: 748px;
+	margin: 0 auto;
+	padding: 0px 5px 5px 5px;
+	-moz-box-shadow: -1px -1px 3px 0px #333333	;
+    -webkit-box-shadow: -1px -1px 3px 0px #333333;
+    box-shadow: -1px -1px 3px 0px #333333;
+}
+
+#TKB_Source {
+	position: relative;
+	top: 5px;
+	left: 75%;
+	color: #4F4F4F;
+	font-style: italic;
+	text-decoration: none;
+}
